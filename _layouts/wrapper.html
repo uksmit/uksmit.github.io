@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>uksmit</h1>
+        <p>A place for ideas</p>
+        <p class="view"><a href="http://github.com/uksmit/uksmit.github.io">View the Project on GitHub <small>uksmit.github.io</small></a></p>
+        <ul>
+          <li><a href="http://github.com/uksmit/uksmit.github.io">Fork On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+          <body>
+              {% include navigation.html %}
+              {{ content }}
+          </body>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="http://github.com/uksmit">Sean</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+  </body>
+</html>
