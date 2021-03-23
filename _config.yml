@@ -1,3 +1,14 @@
 theme: jekyll-theme-minimal
-title: Welcome to the uksmit’s homepage!
+title: Welcome to uksmit’s homepage!
 description: Feel free to bookmark this to keep an eye on my project updates.
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
