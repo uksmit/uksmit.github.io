@@ -2,6 +2,12 @@ theme: jekyll-theme-minimal
 title: Home of uksmit
 description: Enthusiastic and driven engineer developing highly technical products using sensors and automation - predominantly manufacturing technology related to CNC machining.
 
+header_navigation:
+  - title: About
+    url: /about/
+  - title: Blog
+    url: /blog/
+
 defaults:
   - scope:
       path: ""
