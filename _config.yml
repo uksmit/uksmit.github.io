@@ -2,12 +2,6 @@ theme: jekyll-theme-minimal
 title: Home of uksmit
 description: GitHub Pages sandbox
 
-header_navigation:
-  - title: About
-    url: /about/
-  - title: Blog
-    url: /blog/
-
 defaults:
   - scope:
       path: ""
