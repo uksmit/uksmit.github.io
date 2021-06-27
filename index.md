@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[About](./about.md) | [Blog](./blog.html
+[About](./about.md) | [Blog](./blog.html)
 
 * * *
 
